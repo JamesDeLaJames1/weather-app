@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-wrapper{
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 40px;
+  margin-top: 40px;
+  -webkit-box-shadow:  0px 0px 42px 10px rgba(0,0,0,0.1); 
+box-shadow: 0px 0px 42px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-main {
+  flex-wrap: wrap !important;
+  padding-bottom: 40px!important;
+}
+
+.input-basic {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 40px;
+  border:none !important;
+  text-align: center;
+  color: #888;
+  outline:none !important;
+  -webkit-box-shadow:  0px 0px 15px 5px rgba(0,0,0,0.01); 
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.01);
+}
+
+.button-basic {
+
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 40px;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  border:none;
+}
+
+.button-none {
+  color: #333;
+  background: none;
+  margin: 0;
+}
+
+.register-question {
+  margin-top: 30px;
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+}
+
+.weather-tile {
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.show-more-section {
+  margin-top: 30px !important;
+}
