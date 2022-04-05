@@ -43,6 +43,9 @@ function Register() {
             setErrors(result.message);
             return;
         }
+
+        const csrfToken = getCookie('XSRF-TOKEN');
+        localStorage.setItem("XSRF-TOKEN", csrfToken);
         
         localStorage.setItem("user-info", JSON.stringify(result));
         navigate('/weather');
